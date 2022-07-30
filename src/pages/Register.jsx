@@ -96,8 +96,6 @@ const Register = ({ setSuccess }) => {
         }
       );
 
-      console.log(response);
-
       //clear state and controlled inputs
       //need value attrib on inputs for this
       setName("");

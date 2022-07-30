@@ -63,8 +63,6 @@ const Register = ({ setSuccess }) => {
         }
       );
 
-      console.log(response);
-
       const accessToken = response?.data?.accessToken;
       const roles = response?.data?.roles;
       setAuth({ email, roles, accessToken });
