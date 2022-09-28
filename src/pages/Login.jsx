@@ -108,7 +108,7 @@ const Register = ({ setSuccess }) => {
           <p>{errMsg}</p>
         </div>
       </ErrorDiv>
-      <H1>Login to claim the skin</H1>
+      <H1>Login</H1>
       <Form onSubmit={handleSubmit}>
         <Label htmlFor="email"> Email:</Label>
         <InputGroup>
